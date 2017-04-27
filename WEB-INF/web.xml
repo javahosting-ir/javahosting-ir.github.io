@@ -1,0 +1,50 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <display-name>ghaseminya</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+<servlet-mapping>   
+    <servlet-name>default</servlet-name>
+    <url-pattern>index.html</url-pattern>
+</servlet-mapping>  
+    
+    
+    
+    
+    <error-page>
+    <!-- Missing login -->
+    <error-code>401</error-code>
+    <location>/404.html</location>
+</error-page>
+<error-page>
+    <!-- Forbidden directory listing -->
+    <error-code>403</error-code>
+    <location>/404.html</location>
+</error-page>
+<error-page>
+    <!-- Missing resource -->
+    <error-code>404</error-code>
+    <location>/404.html</location>
+</error-page>
+<error-page>
+    <!-- Uncaught exception -->
+    <error-code>500</error-code>
+    <location>/404.html</location>
+</error-page>
+<error-page>
+    <!-- Unsupported servlet method -->
+    <error-code>503</error-code>
+    <location>/404.html</location>
+</error-page>
+    
+    
+    
+    
+    
+    
+</web-app>

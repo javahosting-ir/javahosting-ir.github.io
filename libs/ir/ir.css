@@ -1,0 +1,18 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+@font-face {
+    font-family: irsans;
+    src: url('fonts/irsans.ttf') ;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: irsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

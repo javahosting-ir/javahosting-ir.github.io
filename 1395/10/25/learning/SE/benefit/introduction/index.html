@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>معرفی زبان برنامه نویسی جاوا | جاواهاستینگ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="خرید هاست جاوا,هاست برای جاوا,هاست رایگان جاوا,فروش هاست جاوا,هاست جاوا,هاست java,هاست جاوا در ایران,هاست برای java,هاست رایگان برای جاوا,هاست جاوایی,هاست لینوکس جاوا,هاستینگ جاوا،هاست glassfish,هاست tomcat,هاست wildfly,glassfish host,tomcat host,wildfly host,java host" />
+    <meta name="description" content="جاواهاستینگ ارزان ترین هاست جاوا با پشتیبانی ۲۴ ساعته و ارائه هاست گلسفیش و تامکت"/>
+    
+        <meta name="keywords" content="آموزش جاوا,معرفی جاوا" />
+    
+    <meta name="description" content="برگه تقلب برای نسخه ۸ جاوا!
+# Java CheatSheet1. the basics2. string manipulation3. working with data structures4. dates and times5. regular expressions6. dealing with numbers and math7. input - output">
+<meta property="og:type" content="article">
+<meta property="og:title" content="معرفی زبان برنامه نویسی جاوا">
+<meta property="og:url" content="http://javahosting.ir/1395/10/25/learning/SE/benefit/introduction/index.html">
+<meta property="og:site_name" content="جاواهاستینگ">
+<meta property="og:description" content="برگه تقلب برای نسخه ۸ جاوا!
+# Java CheatSheet1. the basics2. string manipulation3. working with data structures4. dates and times5. regular expressions6. dealing with numbers and math7. input - output">
+<meta property="og:image" content="https://s4.postimg.org/jzvh0kiwd/hello.png">
+<meta property="og:updated_time" content="2017-03-17T07:57:54.476Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="معرفی زبان برنامه نویسی جاوا">
+<meta name="twitter:description" content="برگه تقلب برای نسخه ۸ جاوا!
+# Java CheatSheet1. the basics2. string manipulation3. working with data structures4. dates and times5. regular expressions6. dealing with numbers and math7. input - output">
+<meta name="twitter:image" content="https://s4.postimg.org/jzvh0kiwd/hello.png">
+    
+
+    
+        <link rel="alternate" href="/" title="جاواهاستینگ" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/css/images/javahosting.png" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+    <link rel="stylesheet" href="/libs/ir/ir.css">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/home.html">خانه</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/آموزش-جاوا/دیپندنسی/">دیپندنسی</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/آموزش-جاوا/نگارش-استاندارد-J2SE/">نگارش استاندارد J2SE</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/آموزش-جاوا/نگارش-سازمانی-J2EE/">نگارش سازمانی J2EE</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/آموزش-جاوا/کتاب-و-اقلام-آموزشی/">کتاب و اقلام آموزشی</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/تعرفه‌ها/">تعرفه‌ها</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/تعرفه‌ها/Apache-Tomcat-Server/">Apache Tomcat Server</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/تعرفه‌ها/Glassfish-4-1-Server/">Glassfish 4.1 Server</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/تعرفه‌ها/Jboss-Wildfly-Server/">Jboss Wildfly Server</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/خدمات/">خدمات</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/خدمات/رایگان/">رایگان</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/خدمات/ویژه/">ویژه</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/درباره-جاواهاستینگ/">درباره جاواهاستینگ</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/درباره-جاواهاستینگ/تماس-با-ما/">تماس با ما</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/درباره-جاواهاستینگ/درباره-ما/">درباره ما</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/category/درباره-جاواهاستینگ/مشتریان-ما/">مشتریان ما</a></li></ul></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="http://cp.javahosting.ir">پنل کاربری</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="جستجو" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="چیزی بنویسین!" />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'پست ها',
+            PAGES: 'صفحات',
+            CATEGORIES: 'دسته ها',
+            TAGS: 'تگ ها',
+            UNTITLED: '(بدون نام!)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><i class="icon fa fa-angle-left"></i><a class="page-title-link" href="/category/آموزش-جاوا/نگارش-استاندارد-J2SE/">نگارش استاندارد J2SE</a><i class="icon fa fa-angle-left"></i><a class="page-title-link" href="/category/آموزش-جاوا/نگارش-استاندارد-J2SE/نکات-جالب/">نکات جالب</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-learning/SE/benefit/introduction" class="article article-single article-type-post rtl" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        معرفی زبان برنامه نویسی جاوا
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/1395/10/25/learning/SE/benefit/introduction/" class="article-date">
+            <time datetime="2017-01-13T20:30:00.000Z" itemprop="datePublished">1395/10/25</time>
+        </a>
+    </div>
+
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tag/آموزش-جاوا/">آموزش جاوا</a>, <a class="tag-link" href="/tag/معرفی-جاوا/">معرفی جاوا</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p>برگه تقلب برای نسخه ۸ جاوا!</p>
+<div dir="ltr"><br># Java CheatSheet<br><br>1. <a href="./#the-basics">the basics</a><br>2. <a href="./#string-manupilation">string manipulation</a><br>3. <a href="./#working-with-data-structures">working with data structures</a><br>4. <a href="./#dates-and-times">dates and times</a><br>5. <a href="./#regular-expressions">regular expressions</a><br>6. <a href="./#dealing-with-numbers-and-math">dealing with numbers and math</a><br>7. <a href="./#input---output-operations">input - output operations</a><br>8. <a href="./#working-with-files-and-directories">working with files and directories</a><br>9. <a href="./#network-clients">network clients</a><br>10. <a href="./#packaging-and-documenting">packaging and documenting</a><br>11. <a href="./#sorting-algorithms">sorting algorithms</a><br><br><br><br><br>## the basics<br><br>#### hello, world! :<br><br><a href="https://postimg.org/image/r33cg6obt/" target="_blank" rel="external"><img src="https://s4.postimg.org/jzvh0kiwd/hello.png" alt="hello.png"></a><br><br>#### if-else:<br><br><a href="https://postimg.org/image/7bjjh40xl/" target="_blank" rel="external"><img src="https://s28.postimg.org/44ozxhghp/nested_if_else.png" alt="nested-if-else.png"></a><br><br>#### loops:<br><br><a href="https://postimg.org/image/88jknyhcz/" target="_blank" rel="external"><img src="https://s29.postimg.org/bs5idrk2v/for_while.png" alt="for-while.png"></a><br><br>#### do-while:<br><br>    do {<br>            System.out.println(“Count is: “ + count);<br>            count++;<br>        } while (count &lt; 11);<br><br>#### switch-case:<br><br><a href="https://postimg.org/image/7cz7nxx6f/" target="_blank" rel="external"><img src="https://s15.postimg.org/vthdiexx7/switch.png" alt="switch.png"></a><br><br>#### arrays:<br><br><a href="https://postimg.org/image/92keizjof/" target="_blank" rel="external"><img src="https://s3.postimg.org/dbp4l5mxv/Ekran_Resmi_2017_03_04_18_11_17.png" alt="Ekran Resmi 2017-03-04 18.11.17.png"></a><br><br>#### two-dimentional arrays:<br><br><a href="https://postimg.org/image/a7cu3y6il/" target="_blank" rel="external"><img src="https://s14.postimg.org/4j6jd2269/Ekran_Resmi_2017_03_04_18_12_38.png" alt="Ekran Resmi 2017-03-04 18.12.38.png"></a><br><br>#### objects:<br><br><a href="https://postimg.org/image/vc2cels79/" target="_blank" rel="external"><img src="https://s2.postimg.org/o8ugyzmrt/object.png" alt="object.png"></a><br><br>#### classes:<br><br><a href="https://postimg.org/image/ohi84c1g1/" target="_blank" rel="external"><img src="https://s24.postimg.org/b0l9lgr4l/class.png" alt="class.png"></a><br><br>#### methods:<br><br><a href="https://postimg.org/image/41314cqrx/" target="_blank" rel="external"><img src="https://s14.postimg.org/4qltgprbl/instance_method.png" alt="instance-method.png"></a><br><br>#### Java IDE comparison:<br><br><a href="https://postimg.org/image/7w5top6wl/" target="_blank" rel="external"><img src="https://s18.postimg.org/4pba52mgp/Ekran_Resmi_2017_03_04_11_02_18.png" alt="Ekran Resmi 2017-03-04 11.02.18.png"></a><br>yes I took this from Wikipedia<br><br>I recommend <a href="https://www.jetbrains.com/idea/" target="_blank" rel="external">IntelliJ IDEA</a> it’s free for <a href="https://www.jetbrains.com/student/" target="_blank" rel="external">students</a>.<br><br><br><br>## string manipulation<br><br>#### comparing strings:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">boolean result = str1.equals(str2);</div><div class="line">boolean result = str1.equalsIgnoreCase(str2);</div></pre></td></tr></table></figure><br><br>#### searching and rerieving substrings:<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">int result = str1.indexOf(str2);</div><div class="line">int result = str1.indexOf(str2,5);</div><div class="line">String index = str1.substring(14);</div></pre></td></tr></table></figure><br><br>#### processing a string one character at a time:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">for (int i=0;i&lt;str1.length();i++)&#123;</div><div class="line"></div><div class="line">char aChar = str1.charAt(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure><br><br>#### Reversing a String by Character:<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">public class Main &#123;</div><div class="line"></div><div class="line">    public static void main(String[] args) &#123;</div><div class="line"></div><div class="line">        String str1 = &quot;whatever string something&quot;;</div><div class="line"></div><div class="line">        StringBuffer str1buff = new StringBuffer(str1);</div><div class="line"></div><div class="line">        String str1rev = str1buff.reverse().toString();</div><div class="line"></div><div class="line">        System.out.println(str1rev);</div><div class="line"></div><div class="line"></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><br><br>#### Reversing a String by Word:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">public class Main &#123;</div><div class="line"></div><div class="line">public static void main(String[] args) &#123;</div><div class="line"></div><div class="line">    String str1 = &quot;reverse this string&quot;;</div><div class="line"></div><div class="line">    Stack&lt;Object&gt; stack = new Stack&lt;&gt;();</div><div class="line"></div><div class="line">    StringTokenizer strTok = new StringTokenizer(str1);</div><div class="line"></div><div class="line">    while(strTok.hasMoreTokens())&#123;</div><div class="line"></div><div class="line">        stack.push(strTok.nextElement());</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    StringBuffer str1rev = new StringBuffer();</div><div class="line"></div><div class="line">    while(!stack.empty())&#123;</div><div class="line"></div><div class="line">        str1rev.append(stack.pop());</div><div class="line">        str1rev.append(&quot; &quot;);</div><div class="line"></div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    System.out.println(str1rev);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><br><br>#### making a string upper or lowercase:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">String strUpper = str1.toUpperCase();</div><div class="line">String strLower = str1.toLowerCase();</div></pre></td></tr></table></figure><br><br>#### removing end and start spaces:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">String str1 = &quot;     asdfsdf   &quot;;</div><div class="line">str1.trim(); //asdfsdf</div></pre></td></tr></table></figure><br><br>#### removing all spaces:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">str1.replace(&quot; &quot;,&quot;&quot;);</div></pre></td></tr></table></figure><br><br>#### parsing a comma separated string:<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String str = &quot;tim,kerry,timmy,camden&quot;;</div><div class="line">String[] results = str.split(&quot;,&quot;);</div></pre></td></tr></table></figure><br><br>## working with data structures<br><br>#### resizing an array:<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">int[] myArray = new int[10];</div><div class="line"></div><div class="line">int[] tmp = new int[myArray.length + 10];</div><div class="line">System.arraycopy(myArray, 0, tmp, 0, myArray.length);</div><div class="line">myArray = tmp;</div><div class="line"></div><div class="line">``` </div><div class="line"></div><div class="line">#### iterating over a collection:</div><div class="line">``` </div><div class="line"> for (Iterator it = map.entrySet().iterator();it.hasNext();)&#123;</div><div class="line"></div><div class="line">            Map.Entry entry = (Map.Entry)it.next();</div><div class="line">            Object key = entry.getKey();</div><div class="line">            Object value = entry.getValue();</div><div class="line">        &#125;</div><div class="line">``` </div><div class="line"></div><div class="line">#### creating a mapped collection:</div><div class="line">``` </div><div class="line">        HashMap map = new HashMap();</div><div class="line">        map.put(key1,obj1);</div><div class="line">        map.put(key2,obj2);</div><div class="line">        map.put(key2,obj2);</div><div class="line">``` </div><div class="line"></div><div class="line">#### sorting an array:</div></pre></td></tr></table></figure><br><br>       int[] nums = {1,4,7,324,0,-4};<br>       Arrays.sort(nums);<br>       System.out.println(Arrays.toString(nums));<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#### sorting an arrayList:</div></pre></td></tr></table></figure><br><br>        List<string> unsortList = new ArrayList<string>();<br><br>        unsortList.add(“CCC”);<br>        unsortList.add(“111”);<br>        unsortList.add(“AAA”);<br>        Collections.sort(unsortList);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### finding an object in arrayList:</div></pre></td></tr></table></figure><br><br>int index = arrayList.indexOf(obj);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### finding an object by value in a hashmap:</div></pre></td></tr></table></figure><br><br>hashmap.containsValue(obj);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### finding an object by key in a hashmap:</div></pre></td></tr></table></figure><br><br>hashmap.containsKey(obj);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### binary search in an array:</div></pre></td></tr></table></figure><br><br>int[] nums = new int[]{7,5,1,3,6,8,9,2};<br>Arrays.sort(nums);<br>int index = Arrays.binarySearch(nums,6);<br>System.out.println(“6 is at index: “+ index);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### converting arrayList to array:</div></pre></td></tr></table></figure><br><br>Object[] objects = arrayList.toArray();<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### converting hashmap to array:</div></pre></td></tr></table></figure><br><br>Object[] objects = hashmap.entrySet().toArray();<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">## dates and times</div><div class="line"></div><div class="line">#### printing date and time:</div></pre></td></tr></table></figure><br><br>Date todaysDate = new Date(); //todays date<br>SimpleDateFormat formatter = new SimpleDateFormat(“EEE, dd MMM yyyy HH:mm:ss”); //date format<br>String formattedDate = formatter.format(todaysDate);<br>System.out.println(formattedDate);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#### converting date to calendar:</div></pre></td></tr></table></figure><br><br>Date mDate = new Date();<br>Calendar mCal = Calendar.getInstance();<br>mCal.setTime(mDate);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#### converting calendar to date:</div></pre></td></tr></table></figure><br><br>Calendar mCal = Calendar.getInstance();<br>Date mDate = mCal.getTime();<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#### parsing Strings into dates:</div></pre></td></tr></table></figure><br><br>public void StringtoDate(String x) throws ParseException{<br>String date = “March 20, 1992 or 3:30:32pm”;<br>DateFormat df = DateFormat.getDateInstance();<br>Date newDate = df.parse(date);<br><br>    }<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"> </div><div class="line">#### date arithmetic using date objects:</div><div class="line"> ``` </div><div class="line">Date date = new Date();</div><div class="line">long time = date.getTime();</div><div class="line">time += 5*24*60*60*1000; //may give a numeric overflow error on IntelliJ IDEA</div><div class="line">Date futureDate = new Date(time);</div><div class="line"></div><div class="line">System.out.println(futureDate);</div></pre></td></tr></table></figure><br><br><br>#### date arithmetic using calendar objects:<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Calendar today = Calendar.getInstance();</div><div class="line">today.add(Calendar.DATE,5);</div></pre></td></tr></table></figure><br><br>#### difference between two dates:<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">long diff = time1 - time2;</div><div class="line">diff = diff/(1000*60*60*24);</div></pre></td></tr></table></figure><br><br>#### comparing dates:<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">boolean result = date1.equals(date2);</div></pre></td></tr></table></figure><br><br><br>#### getting details from calendar:<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">  </div><div class="line">Calendar cal = Calendar.getInstance();</div><div class="line">cal.get(Calendar.MONTH);</div><div class="line">cal.get(Calendar.YEAR);</div><div class="line">cal.get(Calendar.DAY_OF_YEAR);</div><div class="line">cal.get(Calendar.WEEK_OF_YEAR);</div><div class="line">cal.get(Calendar.DAY_OF_MONTH);</div><div class="line">cal.get(Calendar.DAY_OF_WEEK_IN_MONTH);</div><div class="line">cal.get(Calendar.DAY_OF_MONTH);</div><div class="line">cal.get(Calendar.HOUR_OF_DAY);</div></pre></td></tr></table></figure><br><br>#### calculating the elapsed time:<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">long startTime = System.currentTimeMillis();</div><div class="line">//times flies by..</div><div class="line">long finishTime =  System.currentTimeMillis();</div><div class="line">long timeElapsed = startTime-finishTime;</div><div class="line">System.out.println(timeElapsed);</div></pre></td></tr></table></figure><br><br>## regular expressions<br><br>#### finding matching text using REGEX:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">String pattern = &quot;[TJ]im&quot;;</div><div class="line">       Pattern regPat = Pattern.compile(pattern,Pattern.CASE_INSENSITIVE);</div><div class="line">       String text = &quot;This is Jim and that&apos;s Tim&quot;;</div><div class="line">       Matcher matcher = regPat.matcher(text);</div><div class="line">       </div><div class="line">       if (matcher.find())&#123;</div><div class="line">           </div><div class="line">           String matchedText = matcher.group();</div><div class="line">           System.out.println(matchedText);</div><div class="line">       &#125;</div></pre></td></tr></table></figure><br><br><br>#### replacing a matched text:<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">String pattern = &quot;[TJ]im&quot;;</div><div class="line">      Pattern regPat = Pattern.compile(pattern,Pattern.CASE_INSENSITIVE);</div><div class="line">      String text = &quot;This is jim and that&apos;s Tim&quot;;</div><div class="line">      Matcher matcher = regPat.matcher(text);</div><div class="line">      String text2 = matcher.replaceAll(&quot;Tom&quot;);</div><div class="line">      System.out.println(text2);</div></pre></td></tr></table></figure><br><br><br>#### replacing a matched text using StringBuffer:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"> Pattern p = Pattern.compile(&quot;My&quot;);</div><div class="line">       Matcher m = p.matcher(&quot;My dad and My mom&quot;);</div><div class="line">       StringBuffer sb = new StringBuffer();</div><div class="line">       boolean found = m.find();</div><div class="line"></div><div class="line">       while(found)&#123;</div><div class="line">           m.appendReplacement(sb,&quot;Our&quot;);</div><div class="line">           found = m.find();</div><div class="line"></div><div class="line">       &#125;</div><div class="line">        m.appendTail(sb);</div><div class="line">        System.out.println(sb);</div><div class="line">```	</div><div class="line">#### finding all occurences of a pattern:</div></pre></td></tr></table></figure><br><br>String pattern = “\sa(\w)<em>t(\w)</em>“; //contains “at”<br>      Pattern regPat = Pattern.compile(pattern);<br>      String text = “words something at atte afdgdatdsf hey”;<br>      Matcher matcher = regPat.matcher(text);<br>      while(matcher.find()){<br><br><br>          String matched = matcher.group();<br>          System.out.println(matched);<br>      }<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### printing lines containing a pattern:</div></pre></td></tr></table></figure><br><br> String pattern = “^a”;<br>      Pattern regPat = Pattern.compile(pattern);<br>      Matcher matcher = regPat.matcher(“”);<br>        BufferedReader reader = new BufferedReader(new FileReader(“file.txt”));<br>        String line;<br>        while ((line = reader.readLine())!= null){<br>            matcher.reset(line);<br>            if (matcher.find()){<br>                System.out.println(line);<br>            }<br>        }<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#### matching new lines in text:</div></pre></td></tr></table></figure><br><br>String pattern = “\d$”; //any single digit<br>     String text = “line one\n line two\n line three\n”;<br>     Pattern regPat = Pattern.compile(pattern, Pattern.MULTILINE);<br>     Matcher matcher = regPat.matcher(text);<br>     while (matcher.find()){<br><br>         System.out.println(matcher.group());<br><br><br>     }<br> <code>#### regex:
+
+* beginning of a string: ^
+* end of a string: $ 
+* 0 or 1 times: ?
+* 0 or more times:  (*) //without brackets
+* 1 or more times: +
+* alternative characters: [...]
+* alternative patterns: |
+* any character: .
+* a digit: \d
+* a non-digit: \D
+* whitespace: \s
+* non-whitespace: \S
+* word character: \w
+* non word character: \W
+
+
+## dealing with numbers and math
+
+#### built-in types:
+
+![alt tag](https://s3.postimg.org/7ihyxdvar/Ekran_Resmi_2017_03_04_10_03_48.png)
+
+* byte: 8bits, Byte
+* short: 16bits, Short
+* long: 64bits, Long
+* float: 32bits, Float
+
+#### checking whether a string is valid number:</code><br><br>  String str = “dsfdfsd54353%%%”;<br><br>     try{<br><br>         int result = Integer.parseInt(str);<br><br>     }<br><br>     catch (NumberFormatException e){<br>         System.out.println(“not valid”);<br>     }<br><code>#### comparing Double:</code><br>Double a = 4.5;<br>      Double b= 4.5;<br><br>      boolean result = a.equals(b);<br><br>      if (result) System.out.println(“equal”);<br> <code>#### rounding:</code><br>double doubleVal = 43.234234200000000234040324;<br>       float floatVal = 2.98f;<br><br>      long longResult = Math.round(doubleVal);<br>      int intResult = Math.round(floatVal);<br><br>        System.out.println(longResult + “ and “ + intResult); // 43 and 3<br><code>#### formatting numbers:</code><br>double value = 2343.8798;<br>        NumberFormat numberFormatter;<br>        String formattedValue;<br>        numberFormatter = NumberFormat.getNumberInstance();<br>        formattedValue = numberFormatter.format(value);<br>        System.out.format(“%s%n”,formattedValue); //2.343,88<br><code>#### formatting currencies:</code><br>double currency = 234546457.99;<br>       NumberFormat currencyFormatter;<br>       String formattedCurrency;<br><br>       currencyFormatter = NumberFormat.getCurrencyInstance();<br><br>       formattedCurrency = currencyFormatter.format(currency);<br><br>        System.out.format(“%s%n”,formattedCurrency); // $ 234.546.457,99<br><code>#### binary, octal and hexadecimal conversion:</code><br>int val = 25;<br>String binaryStr = Integer.toBinaryString(val);<br>String octalStr = Integer.toOctalString(val);<br>String hexStr = Integer.toHexString(val);<br><code>#### generating random numbers:</code><br>double rn = Math.random();<br>        int rint = (int) (Math.random()<em>10); // random int between 0-10<br><br>        System.out.println(rn);<br>        System.out.println(rint);<br><code>#### calculating trigonometric functions:</code><br>double cos = Math.cos(45);<br>        double sin = Math.sin(45);<br>        double tan = Math.tan(45);<br><code>#### calculating logarithm</code><br>double logVal = Math.log(125.5);<br><code>#### Math library:
+
+[![Ekran Resmi 2017-03-04 10.42.52.png](https://s27.postimg.org/fuya7a83n/Ekran_Resmi_2017_03_04_10_42_52.png)](https://postimg.org/image/f5fhux7jz/)
+
+[![library-calls.png](https://s29.postimg.org/ux3o2zijb/library_calls.png)](https://postimg.org/image/ow5z5wvwz/)
+
+## input - output operations:
+
+#### reading a text from input:</code><br>//throw IOexception first<br><br>BufferedReader inStream = new BufferedReader(new InputStreamReader(System.in));<br>      String inline =””;<br>      while (!(inline.equalsIgnoreCase(“quit”))){<br>          System.out.println(“prompt&gt; “);<br>          inline=inStream.readLine();<br>      }<br><code>#### formatting output:</code><br>StringBuffer buffer = new StringBuffer();<br>      Formatter formatter = new Formatter(buffer, Locale.US);<br>      formatter.format(“PI: “+Math.PI);<br>        System.out.println(buffer.toString());<br>```<br>#### formatter format calls:<br><br><a href="https://postimg.org/image/qanvu1bnl/" target="_blank" rel="external"><img src="https://s24.postimg.org/6st8e3epx/Ekran_Resmi_2017_03_04_11_21_45.png" alt="Ekran Resmi 2017-03-04 11.21.45.png"></a><br><br><br><br>#### opening file by name:<br><br><br>    BufferedReader br = new BufferedReader(new FileReader(textFile.txt)); //for reading<br>        BufferedWriter bw = new BufferedWriter(new FileWriter(textFile.txt)); //for writing<br><br>#### reading a binary data:<br><br>     InputStream is = new FileInputStream(fileName);<br>        int offset = 0;<br>        int bytesRead = is.read(bytes, ofset, bytes.length-offset);<br><br>#### seeking in a file:<br><br>     File file = new File(something.bin);<br>        RandomAccessFile raf = new RandomAccessFile(file,”rw”);<br>        raf.seek(file.length());<br><br>#### reading a Jar/zip/rar file:<br><br>    ZipFile file =new ZipFile(filename);<br>        Enumeration entries = file.entries();<br>        while(entries.hasMoreElements()){<br><br>            ZipEntry entry = (ZipEntry) entries.nextElement();<br>            if (entry.isDirectory()){<br>                //do something<br>            }<br>            else{<br>                //do something<br>            }<br>        }<br>        file.close();<br><br>## working with files and directories<br><br>#### creating a file:<br><br>    File f = new File(“textFile.txt”);<br>    boolean result = f.createNewFile();<br><br>#### renaming a file:<br><br>     File f = new File(“textFile.txt”);<br>    File newf = new File(“newTextFile.txt”);<br>    boolean result = f.renameto(newf);<br><br>#### deleting a file:<br><br>    File f = new File(“somefile.txt”);<br>    f.delete();<br><br>#### changing file attributes:<br><br>    File f = new File(“somefile.txt”);<br>    f.setReadOnly(); // making the file read only<br>    f.setLastModified(desired time);<br><br>#### getting the size of a file:<br>     File f = new File(“somefile.txt”);<br>    long length = file.length();<br><br>#### checking if a file exist or not:<br><br>    File f = new File(“somefile.txt”);<br>    boolean status = f.exists();<br><br>#### moving a file to another directory:<br><br>    File f = new File(“somefile.txt”);<br>    File dir = new File(“directoryName”);<br>    boolean success = f.renameTo(new File(dir, file.getName()));<br><br>#### getting an absolute filename path:<br><br>    File f = new File(“somefile.txt”);<br>    File absPath = f.getAbsoluteFile();<br><br>#### determining if it’s a file or a directory:<br><br>    File f = new File(“somefile.txt”);<br>        boolean isDirectory = f.isDirectory();<br>        System.out.println(isDirectory); //false<br><br>#### listing a directory:<br><br>    File directory = new File(“users/ege”);<br>        String[] result = directory.list();<br><br>#### creating a directory:<br><br>    boolean result = new File(“users/ege”).mkdir();<br><br>## network clients<br><br>#### contacting a server:<br><br>    String serverName = “www.egek.us”;<br>        Socket socket = new Socket(serverName, 80);<br>        System.out.println(socket);<br><br>#### handling network errors:<br><br>    try {<br>                Socket sock = new Socket(server_name, tcp_port);<br>                System.out.println(“Connected to “ + server_name);<br>             sock.close(  );<br><br>        } catch (UnknownHostException e) {<br>            System.err.println(server_name + “ Unknown host”);<br>            return;<br>        } catch (NoRouteToHostException e) {<br>            System.err.println(server_name + “ Unreachable” );<br>            return;<br>        } catch (ConnectException e) {<br>            System.err.println(server_name + “ connect refused”);<br>            return;<br>        } catch (java.io.IOException e) {<br>            System.err.println(server_name + ‘ ‘ + e.getMessage(  ));<br>            return;<br>        }<br><br><br>## packaging and documenting<br><br>#### creating a package:<br><br>    package com.ege.example;<br><br>#### documenting classes with JavaDoc:<br><br>    javadoc -d \home\html<br>        -sourcepath \home\src<br>        -subpackages java.net<br><br>#### archiving classes with Jar:<br><br>    jar cf project.jar </em>.class<br><br>#### running a program from a Jar:<br><br>    java -jar something.jar<br><br><br>## sorting algorithms<br><br><em> Bubble Sort
+</em> Linear Search<br><em> Binary Search
+</em> Selection Sort<br>* Insertion Sort<br><br><a href="https://github.com/egek92/SortAlgorithms" target="_blank" rel="external">Over here</a><br><br><br><br><br><br><br><br><br><br><br><br></string></string></div>
+
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://javahosting.ir/1395/10/25/learning/SE/benefit/introduction/" data-id="cj0l1hacz0053kbpvjaowduts" class="article-share-link"><i class="fa fa-share"></i>اشتراک گذاری</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>دنبال کردن:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ghaseminya" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/1395/10/25/services/special/index/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">مقاله بعدی</strong>
+        <p class="article-nav-title">
+        
+            طراحی و برنامه نویسی پروژه های سفارشی
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/1395/10/25/learning/SE/benefit/cheatsheet/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">مقاله قبلی</strong>
+        <p class="article-nav-title">جاوا ۸</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">آخرین مقالات</h3>
+        <div class="widget">
+            <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><i class="icon fa fa-angle-left"></i><a class="article-category-link" href="/category/آموزش-جاوا/دیپندنسی/">دیپندنسی</a></p>
+                            <p class="item-title"><a href="/1396/01/01/learning/dependency/index/" class="title">فایل‌ها و  کتابخانه های جاوایی</a></p>
+                            <p class="item-date"><time datetime="2017-03-21T19:30:00.000Z" itemprop="datePublished">1396/1/1</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><i class="icon fa fa-angle-left"></i><a class="article-category-link" href="/category/آموزش-جاوا/کتاب-و-اقلام-آموزشی/">کتاب و اقلام آموزشی</a></p>
+                            <p class="item-title"><a href="/1396/01/01/learning/books/index/" class="title">کتابها و اقلام آموزشی</a></p>
+                            <p class="item-date"><time datetime="2017-03-21T19:30:00.000Z" itemprop="datePublished">1396/1/1</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><i class="icon fa fa-angle-left"></i><a class="article-category-link" href="/category/آموزش-جاوا/نگارش-سازمانی-J2EE/">نگارش سازمانی J2EE</a></p>
+                            <p class="item-title"><a href="/1395/12/24/learning/EE/projects/shop/" class="title">نمونه پروژه فروشگاه</a></p>
+                            <p class="item-date"><time datetime="2017-03-13T20:30:00.000Z" itemprop="datePublished">1395/12/24</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><i class="icon fa fa-angle-left"></i><a class="article-category-link" href="/category/آموزش-جاوا/نگارش-سازمانی-J2EE/">نگارش سازمانی J2EE</a></p>
+                            <p class="item-title"><a href="/1395/12/24/learning/EE/projects/cms/" class="title">نمونه پروژه دیگر</a></p>
+                            <p class="item-date"><time datetime="2017-03-13T20:30:00.000Z" itemprop="datePublished">1395/12/24</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/category/درباره-جاواهاستینگ/">درباره جاواهاستینگ</a><i class="icon fa fa-angle-left"></i><a class="article-category-link" href="/category/درباره-جاواهاستینگ/مشتریان-ما/">مشتریان ما</a></p>
+                            <p class="item-title"><a href="/1395/11/26/about/customers/" class="title">مشتریان ما</a></p>
+                            <p class="item-date"><time datetime="2017-02-13T20:30:00.000Z" itemprop="datePublished">1395/11/26</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">دسته‌بندی‌ها</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/">آموزش جاوا</a><span class="category-list-count">141</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/دیپندنسی/">دیپندنسی</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/نگارش-استاندارد-J2SE/">نگارش استاندارد J2SE</a><span class="category-list-count">137</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/نگارش-استاندارد-J2SE/نکات-جالب/">نکات جالب</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/نگارش-استاندارد-J2SE/کدهای-بهینه-شدهٔ-من/">کدهای بهینه شدهٔ من</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/نگارش-سازمانی-J2EE/">نگارش سازمانی J2EE</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/نگارش-سازمانی-J2EE/نمونه-پروژه‌ها/">نمونه پروژه‌ها</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/category/آموزش-جاوا/کتاب-و-اقلام-آموزشی/">کتاب و اقلام آموزشی</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/category/تعرفه‌ها/">تعرفه‌ها</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/category/تعرفه‌ها/Apache-Tomcat-Server/">Apache Tomcat Server</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/category/تعرفه‌ها/Glassfish-4-1-Server/">Glassfish 4.1 Server</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/category/تعرفه‌ها/Jboss-Wildfly-Server/">Jboss Wildfly Server</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/category/خدمات/">خدمات</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/category/خدمات/رایگان/">رایگان</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/category/خدمات/ویژه/">ویژه</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/category/درباره-جاواهاستینگ/">درباره جاواهاستینگ</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/category/درباره-جاواهاستینگ/تماس-با-ما/">تماس با ما</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/category/درباره-جاواهاستینگ/درباره-ما/">درباره ما</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/category/درباره-جاواهاستینگ/مشتریان-ما/">مشتریان ما</a><span class="category-list-count">1</span></li></ul></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">آرشیو مقالات</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archive/1396/01/">Farvardin 1396</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archive/1395/12/">Esfand 1395</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archive/1395/11/">Bahman 1395</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archive/1395/10/">Dey 1395</a><span class="archive-list-count">154</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">تگها</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tag/Apache-Tomcat/">Apache Tomcat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/BPMS/">BPMS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/Glassfish/">Glassfish</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/IDE/">IDE</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/WildFly/">WildFly</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/jar/">jar</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/آموزش-J2SE/">آموزش J2SE</a><span class="tag-list-count">133</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/آموزش-جاوا/">آموزش جاوا</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/تامکت/">تامکت</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/تبلیغاتی-اینترنتی/">تبلیغاتی اینترنتی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/تقویم-جلالی-در-جاوا/">تقویم جلالی در جاوا</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/جاوا-۸/">جاوا ۸</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/درباره‌ما/">درباره‌ما</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/درخواست-پروژه/">درخواست پروژه</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/درخواست-پروژه-جاوا/">درخواست پروژه جاوا</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/راه-های-ارتباطی/">راه های ارتباطی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/سیستم-فروشگاه-اینترنتی/">سیستم فروشگاه اینترنتی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/سیستم-مدیریت-محتوا/">سیستم مدیریت محتوا</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/شبکه‌های-مجازی/">شبکه‌های مجازی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/فایل-کتابخانه/">فایل کتابخانه</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/فرایند-تجاری/">فرایند تجاری</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/فیلم-آموزشی/">فیلم آموزشی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/قوانین/">قوانین</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/محاسبات-ابری/">محاسبات ابری</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/مدیریت-فرایند-تجاری/">مدیریت فرایند تجاری</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/مدیریت-مناقصات/">مدیریت مناقصات</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/مدیریت-پروژه/">مدیریت پروژه</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/مشتریان-ما/">مشتریان ما</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/معرفی-جاوا/">معرفی جاوا</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/مقاله/">مقاله</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/موتور-جستجو/">موتور جستجو</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/نمونه-پروژه-j2ee/">نمونه پروژه j2ee</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/وب-سایت-خبری/">وب سایت خبری</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/وب-سرور-آپاچی-تامکت-نسخه-۹/">وب سرور آپاچی تامکت نسخه ۹</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/وب-سرور-گلس‌فیش/">وب سرور گلس‌فیش</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/ویدئو-کنفرانس/">ویدئو کنفرانس</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/پرتال/">پرتال</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/پروژه-سازمانی/">پروژه سازمانی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/پروژه-سفارشی/">پروژه سفارشی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/پروژه-شرکتی/">پروژه شرکتی</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/پروژه-متن-باز/">پروژه متن باز</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/چیت‌شیت/">چیت‌شیت</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/کتاب/">کتاب</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tag/کتابخوانی/">کتابخوانی</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">تگهای پربازدید</h3>
+        <div class="widget tagcloud">
+            <a href="/tag/Apache-Tomcat/" style="font-size: 10px;">Apache Tomcat</a> <a href="/tag/BPMS/" style="font-size: 10px;">BPMS</a> <a href="/tag/Glassfish/" style="font-size: 10px;">Glassfish</a> <a href="/tag/IDE/" style="font-size: 10px;">IDE</a> <a href="/tag/WildFly/" style="font-size: 10px;">WildFly</a> <a href="/tag/jar/" style="font-size: 10px;">jar</a> <a href="/tag/آموزش-J2SE/" style="font-size: 20px;">آموزش J2SE</a> <a href="/tag/آموزش-جاوا/" style="font-size: 16.67px;">آموزش جاوا</a> <a href="/tag/تامکت/" style="font-size: 10px;">تامکت</a> <a href="/tag/تبلیغاتی-اینترنتی/" style="font-size: 10px;">تبلیغاتی اینترنتی</a> <a href="/tag/تقویم-جلالی-در-جاوا/" style="font-size: 10px;">تقویم جلالی در جاوا</a> <a href="/tag/جاوا-۸/" style="font-size: 10px;">جاوا ۸</a> <a href="/tag/درباره‌ما/" style="font-size: 10px;">درباره‌ما</a> <a href="/tag/درخواست-پروژه/" style="font-size: 10px;">درخواست پروژه</a> <a href="/tag/درخواست-پروژه-جاوا/" style="font-size: 10px;">درخواست پروژه جاوا</a> <a href="/tag/راه-های-ارتباطی/" style="font-size: 10px;">راه های ارتباطی</a> <a href="/tag/سیستم-فروشگاه-اینترنتی/" style="font-size: 10px;">سیستم فروشگاه اینترنتی</a> <a href="/tag/سیستم-مدیریت-محتوا/" style="font-size: 10px;">سیستم مدیریت محتوا</a> <a href="/tag/شبکه‌های-مجازی/" style="font-size: 10px;">شبکه‌های مجازی</a> <a href="/tag/فایل-کتابخانه/" style="font-size: 10px;">فایل کتابخانه</a> <a href="/tag/فرایند-تجاری/" style="font-size: 10px;">فرایند تجاری</a> <a href="/tag/فیلم-آموزشی/" style="font-size: 10px;">فیلم آموزشی</a> <a href="/tag/قوانین/" style="font-size: 10px;">قوانین</a> <a href="/tag/محاسبات-ابری/" style="font-size: 10px;">محاسبات ابری</a> <a href="/tag/مدیریت-فرایند-تجاری/" style="font-size: 10px;">مدیریت فرایند تجاری</a> <a href="/tag/مدیریت-مناقصات/" style="font-size: 10px;">مدیریت مناقصات</a> <a href="/tag/مدیریت-پروژه/" style="font-size: 10px;">مدیریت پروژه</a> <a href="/tag/مشتریان-ما/" style="font-size: 10px;">مشتریان ما</a> <a href="/tag/معرفی-جاوا/" style="font-size: 10px;">معرفی جاوا</a> <a href="/tag/مقاله/" style="font-size: 10px;">مقاله</a> <a href="/tag/موتور-جستجو/" style="font-size: 10px;">موتور جستجو</a> <a href="/tag/نمونه-پروژه-j2ee/" style="font-size: 13.33px;">نمونه پروژه j2ee</a> <a href="/tag/وب-سایت-خبری/" style="font-size: 10px;">وب سایت خبری</a> <a href="/tag/وب-سرور-آپاچی-تامکت-نسخه-۹/" style="font-size: 10px;">وب سرور آپاچی تامکت نسخه ۹</a> <a href="/tag/وب-سرور-گلس‌فیش/" style="font-size: 10px;">وب سرور گلس‌فیش</a> <a href="/tag/ویدئو-کنفرانس/" style="font-size: 10px;">ویدئو کنفرانس</a> <a href="/tag/پرتال/" style="font-size: 10px;">پرتال</a> <a href="/tag/پروژه-سازمانی/" style="font-size: 10px;">پروژه سازمانی</a> <a href="/tag/پروژه-سفارشی/" style="font-size: 10px;">پروژه سفارشی</a> <a href="/tag/پروژه-شرکتی/" style="font-size: 10px;">پروژه شرکتی</a> <a href="/tag/پروژه-متن-باز/" style="font-size: 10px;">پروژه متن باز</a> <a href="/tag/چیت‌شیت/" style="font-size: 10px;">چیت‌شیت</a> <a href="/tag/کتاب/" style="font-size: 10px;">کتاب</a> <a href="/tag/کتابخوانی/" style="font-size: 10px;">کتابخوانی</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">لینکها</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://khazeshgar.ir">خزشگر</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 1396 جاواهاستینگ</p>
+                <p><a href="http://cp.javahosting.ir" >پنل کاربری</a> | <a href="http://javahosting.ir/1395/10/25/about/law/" >قوانین استفاده</a> | <a href="http://javahosting.ir/category/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AC%D8%A7%D9%88%D8%A7%D9%87%D8%A7%D8%B3%D8%AA%DB%8C%D9%86%DA%AF/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7/" >درباره ما</a> | <a href="http://javahosting.ir/category/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AC%D8%A7%D9%88%D8%A7%D9%87%D8%A7%D8%B3%D8%AA%DB%8C%D9%86%DA%AF/%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%D8%A7-%D9%85%D8%A7/" >تماس با ما</a></p>
+	
+
+            </div>
+            <div class="icons" style="float:left">
+<img id='hwlalbrhrgvlbrgwlbrh' style='cursor:pointer' onclick='window.open("https://trustseal.enamad.ir/Verify.aspx?id=47567&p=odshqgwlyncrhwmbqgwl", "Popup","toolbar=no, location=no, statusbar=no, menubar=no, scrollbars=1, resizable=0, width=580, height=600, top=30")' alt='' src='https://trustseal.enamad.ir/logo.aspx?id=47567&p=aodspeukfujykzoepeuk'/>
+                            <img id='fukzesgtfukzapfujzpe' style='cursor:pointer' onclick='window.open("https://logo.samandehi.ir/Verify.aspx?id=60657&p=gvkaobpdgvkadshwjyoe", "Popup","toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30")' alt='logo-samandehi' src='https://logo.samandehi.ir/logo.aspx?id=60657&p=wlbqlymawlbqujynyndt'/>
+                            <br/>
+                            <img src="/css/images/logo/bpm.png" style="width: 128px;height: 128px;background-color:#fff" alt="bpm image">
+                            <img src="/css/images/logo/pep.gif" style="width: 128px;height: 128px;background-color:#fff" alt="pep image">
+                            <img src="/css/images/logo/sep.png" style="width: 128px;height: 128px;background-color:#fff" alt="sep image">
+	</div>
+        </div>
+    </div>
+</footer>
+
+        
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

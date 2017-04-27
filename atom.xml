@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>جاواهاستینگ</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://javahosting.ir/"/>
+  <updated>2017-03-23T07:04:55.653Z</updated>
+  <id>http://javahosting.ir/</id>
+  
+  <author>
+    <name>جاواهاستینگ</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>فایل‌ها و  کتابخانه های جاوایی</title>
+    <link href="http://javahosting.ir/1396/01/01/learning/dependency/index/"/>
+    <id>http://javahosting.ir/1396/01/01/learning/dependency/index/</id>
+    <published>2017-03-21T19:30:00.000Z</published>
+    <updated>2017-03-23T07:04:55.653Z</updated>
+    
+    <summary type="html">
+    
+      &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;شماره&lt;/th&gt;
+&lt;th&gt;نام فایل&lt;/th&gt;
+&lt;th&gt;+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/
+    
+    </summary>
+    
+      <category term="آموزش جاوا" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/"/>
+    
+      <category term="دیپندنسی" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%D8%AF%DB%8C%D9%BE%D9%86%D8%AF%D9%86%D8%B3%DB%8C/"/>
+    
+    
+      <category term="فایل کتابخانه" scheme="http://javahosting.ir/tag/%D9%81%D8%A7%DB%8C%D9%84-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/"/>
+    
+      <category term="jar" scheme="http://javahosting.ir/tag/jar/"/>
+    
+      <category term="IDE" scheme="http://javahosting.ir/tag/IDE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>کتابها و اقلام آموزشی</title>
+    <link href="http://javahosting.ir/1396/01/01/learning/books/index/"/>
+    <id>http://javahosting.ir/1396/01/01/learning/books/index/</id>
+    <published>2017-03-21T19:30:00.000Z</published>
+    <updated>2017-03-22T14:04:05.675Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;ul id=&quot;search&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;جستجو&quot; id=&quot;query&quot; name=&quot;query&quot; autocomplete=&quot;off&quot;&gt;&lt;/ul&gt;&lt;ul id=&quot;selection&quot;&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;div 
+    
+    </summary>
+    
+      <category term="آموزش جاوا" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/"/>
+    
+      <category term="کتاب و اقلام آموزشی" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%88-%D8%A7%D9%82%D9%84%D8%A7%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/"/>
+    
+    
+      <category term="کتاب" scheme="http://javahosting.ir/tag/%DA%A9%D8%AA%D8%A7%D8%A8/"/>
+    
+      <category term="مقاله" scheme="http://javahosting.ir/tag/%D9%85%D9%82%D8%A7%D9%84%D9%87/"/>
+    
+      <category term="فیلم آموزشی" scheme="http://javahosting.ir/tag/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/"/>
+    
+      <category term="چیت‌شیت" scheme="http://javahosting.ir/tag/%DA%86%DB%8C%D8%AA%E2%80%8C%D8%B4%DB%8C%D8%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>نمونه پروژه فروشگاه</title>
+    <link href="http://javahosting.ir/1395/12/24/learning/EE/projects/shop/"/>
+    <id>http://javahosting.ir/1395/12/24/learning/EE/projects/shop/</id>
+    <published>2017-03-13T20:30:00.000Z</published>
+    <updated>2017-03-22T14:44:41.776Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;نمونه پروژه جاوا برای فروشگاه آنلاین.&lt;br&gt;این فروشگاه بر پایه spring نوشته شده است.&lt;br&gt;برای اجرا کافیست دستور زیر را وارد کنید:&lt;/p&gt;
+&lt;div d
+    
+    </summary>
+    
+      <category term="آموزش جاوا" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/"/>
+    
+      <category term="نگارش سازمانی J2EE" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-J2EE/"/>
+    
+      <category term="نمونه پروژه‌ها" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-J2EE/%D9%86%D9%85%D9%88%D9%86%D9%87-%D9%BE%D8%B1%D9%88%DA%98%D9%87%E2%80%8C%D9%87%D8%A7/"/>
+    
+    
+      <category term="نمونه پروژه j2ee" scheme="http://javahosting.ir/tag/%D9%86%D9%85%D9%88%D9%86%D9%87-%D9%BE%D8%B1%D9%88%DA%98%D9%87-j2ee/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>نمونه پروژه دیگر</title>
+    <link href="http://javahosting.ir/1395/12/24/learning/EE/projects/cms/"/>
+    <id>http://javahosting.ir/1395/12/24/learning/EE/projects/cms/</id>
+    <published>2017-03-13T20:30:00.000Z</published>
+    <updated>2017-03-22T14:08:02.004Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="آموزش جاوا" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/"/>
+    
+      <category term="نگارش سازمانی J2EE" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-J2EE/"/>
+    
+      <category term="نمونه پروژه‌ها" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-J2EE/%D9%86%D9%85%D9%88%D9%86%D9%87-%D9%BE%D8%B1%D9%88%DA%98%D9%87%E2%80%8C%D9%87%D8%A7/"/>
+    
+    
+      <category term="نمونه پروژه j2ee" scheme="http://javahosting.ir/tag/%D9%86%D9%85%D9%88%D9%86%D9%87-%D9%BE%D8%B1%D9%88%DA%98%D9%87-j2ee/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>مشتریان ما</title>
+    <link href="http://javahosting.ir/1395/11/26/about/customers/"/>
+    <id>http://javahosting.ir/1395/11/26/about/customers/</id>
+    <published>2017-02-13T20:30:00.000Z</published>
+    <updated>2017-04-27T20:03:48.019Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;سیاست گروه جاواهاستینگ ایجاد فضای همکاری به شکل برد برد است،&lt;br&gt;در زیر بخشی از مشتریان مستقیم جاواهاستینگ لیست شده اند.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;h
+    
+    </summary>
+    
+      <category term="درباره جاواهاستینگ" scheme="http://javahosting.ir/category/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AC%D8%A7%D9%88%D8%A7%D9%87%D8%A7%D8%B3%D8%AA%DB%8C%D9%86%DA%AF/"/>
+    
+      <category term="مشتریان ما" scheme="http://javahosting.ir/category/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AC%D8%A7%D9%88%D8%A7%D9%87%D8%A7%D8%B3%D8%AA%DB%8C%D9%86%DA%AF/%D9%85%D8%B4%D8%AA%D8%B1%DB%8C%D8%A7%D9%86-%D9%85%D8%A7/"/>
+    
+    
+      <category term="مشتریان ما" scheme="http://javahosting.ir/tag/%D9%85%D8%B4%D8%AA%D8%B1%DB%8C%D8%A7%D9%86-%D9%85%D8%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>پرتال و طراحی سیستم مدیریت محتوا</title>
+    <link href="http://javahosting.ir/1395/11/26/services/free/portal/"/>
+    <id>http://javahosting.ir/1395/11/26/services/free/portal/</id>
+    <published>2017-02-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:12:01.928Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی پرتال های بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز پرتال پیشرفته
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="سیستم مدیریت محتوا" scheme="http://javahosting.ir/tag/%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%85%D8%AD%D8%AA%D9%88%D8%A7/"/>
+    
+      <category term="پرتال" scheme="http://javahosting.ir/tag/%D9%BE%D8%B1%D8%AA%D8%A7%D9%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>تماس با ما</title>
+    <link href="http://javahosting.ir/1395/11/26/about/contactus/"/>
+    <id>http://javahosting.ir/1395/11/26/about/contactus/</id>
+    <published>2017-02-13T20:30:00.000Z</published>
+    <updated>2017-03-12T19:49:48.917Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ارتباط با جاواهاستینگ: info@javahosting.ir , admin@javahosting.ir&lt;br&gt;تلفن سرویس دهی: ۰۹۳۸۷۷۱۹۳۵۱-۰۲۵۳۶۶۴۸۴۹۸(ساعات تماس ۸ صبح تا ۱۶)&lt;br&gt;آ
+    
+    </summary>
+    
+      <category term="درباره جاواهاستینگ" scheme="http://javahosting.ir/category/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AC%D8%A7%D9%88%D8%A7%D9%87%D8%A7%D8%B3%D8%AA%DB%8C%D9%86%DA%AF/"/>
+    
+      <category term="تماس با ما" scheme="http://javahosting.ir/category/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AC%D8%A7%D9%88%D8%A7%D9%87%D8%A7%D8%B3%D8%AA%DB%8C%D9%86%DA%AF/%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%D8%A7-%D9%85%D8%A7/"/>
+    
+    
+      <category term="راه های ارتباطی" scheme="http://javahosting.ir/tag/%D8%B1%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>فروشگاه اینترنتی</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/shop/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/shop/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:11:48.659Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی فروشگاه وبی بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز فروشگاه پیش
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="سیستم فروشگاه اینترنتی" scheme="http://javahosting.ir/tag/%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>جاوانگارش استاندارد SE</title>
+    <link href="http://javahosting.ir/1395/10/25/learning/SE/index/"/>
+    <id>http://javahosting.ir/1395/10/25/learning/SE/index/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T21:45:39.267Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;آموزش جاوا&lt;/p&gt;
+&lt;div dir=&quot;ltr&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;
+    
+    </summary>
+    
+      <category term="آموزش جاوا" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/"/>
+    
+      <category term="نگارش استاندارد J2SE" scheme="http://javahosting.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-J2SE/"/>
+    
+    
+      <category term="آموزش جاوا" scheme="http://javahosting.ir/tag/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>سیستم مدیریت فرایند تجاری</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/bpms/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/bpms/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:15:49.105Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم مدیریت فرایند تجاری یا BPMS بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پرو
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="مدیریت فرایند تجاری" scheme="http://javahosting.ir/tag/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AA%D8%AC%D8%A7%D8%B1%DB%8C/"/>
+    
+      <category term="BPMS" scheme="http://javahosting.ir/tag/BPMS/"/>
+    
+      <category term="فرایند تجاری" scheme="http://javahosting.ir/tag/%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AA%D8%AC%D8%A7%D8%B1%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>کتابخوانی</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/book/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/book/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:22:54.050Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم کتابخوانی بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه طراحی شده از پا
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="کتابخوانی" scheme="http://javahosting.ir/tag/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D9%88%D8%A7%D9%86%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>محاسبات ابری</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/cloud/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/cloud/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:26:23.042Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم محاسبات ابری بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز &lt;a h
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="محاسبات ابری" scheme="http://javahosting.ir/tag/%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%A7%D8%A8%D8%B1%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>مدیریت مناقصات</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/hire/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/hire/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:27:03.832Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم مدیریت مناقصات بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه طراحی شده 
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="مدیریت مناقصات" scheme="http://javahosting.ir/tag/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%85%D9%86%D8%A7%D9%82%D8%B5%D8%A7%D8%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>سامانه خبری</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/news/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/news/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:13:13.379Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی وب سایت خبری بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز نیوز‌پرتال
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="وب سایت خبری" scheme="http://javahosting.ir/tag/%D9%88%D8%A8-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%AE%D8%A8%D8%B1%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>مدیریت پروژه</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/pm/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/pm/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:16:54.185Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم مدیریت پروژه بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه طراحی شده از
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="مدیریت پروژه" scheme="http://javahosting.ir/tag/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%D8%B1%D9%88%DA%98%D9%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>تعرفه ارائه هاست گلس‌فیش</title>
+    <link href="http://javahosting.ir/1395/10/25/prices/glassfish/"/>
+    <id>http://javahosting.ir/1395/10/25/prices/glassfish/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:44:05.820Z</updated>
+    
+    <summary type="html">
+    
+      &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;وب سرور&lt;/th&gt;
+&lt;th&gt;میزان رم&lt;/th&gt;
+&lt;th&gt;مدت زمان&lt;/th&gt;
+&lt;th&gt;میزان هارد&lt;/th&gt;
+&lt;th&gt;پشتیبانی&lt;/th&gt;
+&lt;th&gt;بها&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+    
+    </summary>
+    
+      <category term="تعرفه‌ها" scheme="http://javahosting.ir/category/%D8%AA%D8%B9%D8%B1%D9%81%D9%87%E2%80%8C%D9%87%D8%A7/"/>
+    
+      <category term="Glassfish 4.1 Server" scheme="http://javahosting.ir/category/%D8%AA%D8%B9%D8%B1%D9%81%D9%87%E2%80%8C%D9%87%D8%A7/Glassfish-4-1-Server/"/>
+    
+    
+      <category term="Glassfish" scheme="http://javahosting.ir/tag/Glassfish/"/>
+    
+      <category term="وب سرور گلس‌فیش" scheme="http://javahosting.ir/tag/%D9%88%D8%A8-%D8%B3%D8%B1%D9%88%D8%B1-%DA%AF%D9%84%D8%B3%E2%80%8C%D9%81%DB%8C%D8%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>موتور جستجو</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/searchengine/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/searchengine/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:22:07.232Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم موتور جستجو بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز سولار
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="موتور جستجو" scheme="http://javahosting.ir/tag/%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%AC%D8%B3%D8%AA%D8%AC%D9%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>تبلیغاتی اینترنتی</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/ads/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/ads/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:24:05.180Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم تبلیغاتی اینترنتی بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه طراحی ش
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="تبلیغاتی اینترنتی" scheme="http://javahosting.ir/tag/%D8%AA%D8%A8%D9%84%DB%8C%D8%BA%D8%A7%D8%AA%DB%8C-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>شبکه‌های اجتماعی</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/social/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/social/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:18:16.726Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم شبکه‌های مجازی بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز اگ
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="شبکه‌های مجازی" scheme="http://javahosting.ir/tag/%D8%B4%D8%A8%DA%A9%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ویدئو کنفرانس</title>
+    <link href="http://javahosting.ir/1395/10/25/services/free/video/"/>
+    <id>http://javahosting.ir/1395/10/25/services/free/video/</id>
+    <published>2017-01-13T20:30:00.000Z</published>
+    <updated>2017-03-12T20:20:32.398Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;برنامه نویسی سیستم ویدئو کنفرانس بر پایه جاوا و استفاده از سیستم های متن باز&lt;br&gt;برخی از این سرویس ها به شکل زیر است:&lt;br&gt;پروژه متن باز جی‌
+    
+    </summary>
+    
+      <category term="خدمات" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"/>
+    
+      <category term="رایگان" scheme="http://javahosting.ir/category/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86/"/>
+    
+    
+      <category term="ویدئو کنفرانس" scheme="http://javahosting.ir/tag/%D9%88%DB%8C%D8%AF%D8%A6%D9%88-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3/"/>
+    
+  </entry>
+  
+</feed>
